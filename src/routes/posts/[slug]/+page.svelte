@@ -1,12 +1,9 @@
 <script>
     export let data;
-    const {published, title, author, Content} = data;
-</script>
-
-
-<article>
-    <h1>{title}</h1>
-    <p>Published: {published}</p>
-    <small>{author}</small>
-    <Content />
+  </script>
+  
+  <article>
+    <h1>{ data.title }</h1>
+    <p>Published: {data.published}</p>
+    <svelte:component this={data.content} />
 </article>
