@@ -9,7 +9,7 @@
 <div class="blogPosts-container">
 {#each data.posts as post}
     <div transition:fade="{{duration: 150, x:50}}" class="blogPost">
-        <h2><a href={post.path && console.log(post.path)}>{post.meta.title}</a></h2>
+        <h2><a href={post.path}>{post.meta.title}</a></h2>
         <section class="blogPost_details">
             <small class="desc">Some short description of an article</small>
             <small>Published on: {post.meta.published}</small>
