@@ -2,6 +2,7 @@
 title: Abstract from a scientific article comes up as faux
 published: 24.08.2022
 author: k3tna
+img: /img2
 ---
 
 ## Second post

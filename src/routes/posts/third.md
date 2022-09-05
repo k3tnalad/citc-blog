@@ -2,6 +2,7 @@
 title: Taste of urination and sweat
 published: 22.08.2022
 author: k3tna
+img: /img4
 ---
 
 ## Third post

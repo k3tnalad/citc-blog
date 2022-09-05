@@ -12,10 +12,9 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: #44403c;
         padding: 1rem;
         letter-spacing: .1em;
-        border: black solid 3px;
+        border-bottom: 3px white solid;
     }
     nav {
         display: flex;
