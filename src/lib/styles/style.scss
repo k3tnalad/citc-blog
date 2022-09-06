@@ -7,12 +7,18 @@
 }
 
 body {
-    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-rows:  repeat(3, auto);
     background: #343a40; 
     color: #f8f9fa;
     letter-spacing: .1em;
     font-family: 'Ubuntu', sans-serif;
     scroll-behavior: smooth;
+}
+
+main {
+  max-height: fit-content;
 }
 
 h1 {
